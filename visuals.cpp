@@ -3,6 +3,8 @@
 #include <vector>
 #include <thread>
 #include <chrono>
+#include "Job.h"
+
 
 void printGanttChart(const std::vector<Job>& jobs) {
     if (jobs.empty()) return;
