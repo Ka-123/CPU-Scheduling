@@ -29,5 +29,5 @@ void calculateAnalytics(const std::vector<Job>& jobs) {
     }
 
     std::cout << "\nAverage Waiting Time: " << std::fixed << std::setprecision(2) << totalWaiting / jobs.size() << "\n";
-    std::cout << "Average Turnaround Time: " << totalTurnaround / jobs.size() << "\n";
+    std::cout << "Average Turnaround Time:" << totalTurnaround / jobs.size() << "\n";
 }
